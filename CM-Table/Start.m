@@ -13,6 +13,9 @@
 
 @interface Start ()
 
+@property NSMutableArray *newitem;
+
+
 @end
 
 @implementation Start
@@ -22,6 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initController];
+    self.newitem =[[NSMutableArray alloc]init];
+    
 }
 //-------------------------------------------------------------------------------
 - (void)didReceiveMemoryWarning {
@@ -32,7 +37,7 @@
 -(void)initController {
    //Initialize arrays
     maNames         = [[NSMutableArray alloc] initWithObjects: @"Hodor", @"Walker King", @"Ghost", @"Dragon", nil];
-    maAges          = [[NSMutableArray alloc] initWithObjects: @"10", @"8", @"40", @"38", @"1", nil];
+    maAges          = [[NSMutableArray alloc] initWithObjects: @"40", @"150", @"18", @"3", nil];
     maImgs          = [[NSMutableArray alloc] initWithObjects: @"hodor.jpg", @"walker.jpg", @"ghost.jpg", @"dragon1.png", nil];
 }
 /**********************************************************************************************/
