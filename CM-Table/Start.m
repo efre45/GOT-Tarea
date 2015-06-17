@@ -13,7 +13,7 @@
 
 @interface Start ()
 
-@property NSMutableArray *newitem;
+@property NSMutableArray *toDoItems;
 
 
 @end
@@ -25,9 +25,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initController];
-    self.newitem =[[NSMutableArray alloc]init];
+    self.toDoItems =[[NSMutableArray alloc]init];
+ //   [self loadInitialData];
+    
+    
     
 }
+
+//----------------------------------------------------------Table array-----
+//-(void) loadInitialData{
+ //   ToDoItem *item1 = [[ToDoItem alloc]init];
+ //   item1.itemName = @"buy milk";
+ //   [self.toDoItems addObject:item1];
+    
+ //   ToDoItem *item2 = [[ToDoItem alloc]init];
+ //   item2.itemName = @"buy eggs";
+ //   [self.toDoItems addObject:item2];
+    
+ //   ToDoItem *item3 = [[ToDoItem alloc]init];
+ //   item3.itemName = @"Read a book";
+ //   [self.toDoItems addObject:item2];
+
+//}
+
+
+
 //-------------------------------------------------------------------------------
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

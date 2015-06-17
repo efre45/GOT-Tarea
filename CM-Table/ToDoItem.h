@@ -1,5 +1,5 @@
 //
-//  newitem.h
+//  ToDoItem.h
 //  CM-Table
 //
 //  Created by Roberto Lucca on 6/17/15.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface newitem : NSObject
+@interface ToDoItem : NSObject
 
 @property NSString *itemName;
 @property BOOL completed;

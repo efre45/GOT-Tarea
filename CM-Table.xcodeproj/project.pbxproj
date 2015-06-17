@@ -11,7 +11,7 @@
 		66FC33791B31D5B200841940 /* walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66FC33781B31D5B200841940 /* walker.jpg */; };
 		66FC337B1B31D5E400841940 /* ghost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66FC337A1B31D5E400841940 /* ghost.jpg */; };
 		66FC337D1B31D62C00841940 /* dragon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FC337C1B31D62C00841940 /* dragon1.png */; };
-		66FC33801B31EC9500841940 /* newitem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FC337F1B31EC9500841940 /* newitem.m */; };
+		66FC33831B31FD9C00841940 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FC33821B31FD9C00841940 /* ToDoItem.m */; };
 		D1D764251B2C71380060D5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D764241B2C71380060D5A6 /* main.m */; };
 		D1D764281B2C71380060D5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D764271B2C71380060D5A6 /* AppDelegate.m */; };
 		D1D7642B1B2C71380060D5A6 /* CM_Table.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1D764291B2C71380060D5A6 /* CM_Table.xcdatamodeld */; };
@@ -45,8 +45,8 @@
 		66FC33781B31D5B200841940 /* walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = walker.jpg; path = "../../../Tarea Efren/walker.jpg"; sourceTree = "<group>"; };
 		66FC337A1B31D5E400841940 /* ghost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ghost.jpg; path = "../../../Tarea Efren/ghost.jpg"; sourceTree = "<group>"; };
 		66FC337C1B31D62C00841940 /* dragon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragon1.png; path = "../../../Tarea Efren/dragon1.png"; sourceTree = "<group>"; };
-		66FC337E1B31EC9500841940 /* newitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newitem.h; sourceTree = "<group>"; };
-		66FC337F1B31EC9500841940 /* newitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newitem.m; sourceTree = "<group>"; };
+		66FC33811B31FD9C00841940 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		66FC33821B31FD9C00841940 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 		D1D7641F1B2C71380060D5A6 /* CM-Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D764231B2C71380060D5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D764241B2C71380060D5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,8 +95,6 @@
 		D1D764161B2C71380060D5A6 = {
 			isa = PBXGroup;
 			children = (
-				66FC337E1B31EC9500841940 /* newitem.h */,
-				66FC337F1B31EC9500841940 /* newitem.m */,
 				D1D764211B2C71380060D5A6 /* CM-Table */,
 				D1D7643E1B2C71380060D5A6 /* CM-TableTests */,
 				D1D764201B2C71380060D5A6 /* Products */,
@@ -170,6 +168,8 @@
 			children = (
 				D1D7642C1B2C71380060D5A6 /* Start.h */,
 				D1D7642D1B2C71380060D5A6 /* Start.m */,
+				66FC33811B31FD9C00841940 /* ToDoItem.h */,
+				66FC33821B31FD9C00841940 /* ToDoItem.m */,
 				D1D764601B2C8C250060D5A6 /* CharacterDetails.h */,
 				D1D764611B2C8C250060D5A6 /* CharacterDetails.m */,
 			);
@@ -313,9 +313,9 @@
 				D1D764281B2C71380060D5A6 /* AppDelegate.m in Sources */,
 				D1D764511B2C753A0060D5A6 /* cellSimpsons.m in Sources */,
 				D1D764621B2C8C250060D5A6 /* CharacterDetails.m in Sources */,
+				66FC33831B31FD9C00841940 /* ToDoItem.m in Sources */,
 				D1D764651B2C8FEA0060D5A6 /* Declarations.m in Sources */,
 				D1D7642B1B2C71380060D5A6 /* CM_Table.xcdatamodeld in Sources */,
-				66FC33801B31EC9500841940 /* newitem.m in Sources */,
 				D1D7642E1B2C71380060D5A6 /* Start.m in Sources */,
 				D1D764251B2C71380060D5A6 /* main.m in Sources */,
 			);
