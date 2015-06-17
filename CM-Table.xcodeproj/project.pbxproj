@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66FC33771B31D59700841940 /* hodor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66FC33761B31D59700841940 /* hodor.jpg */; };
+		66FC33791B31D5B200841940 /* walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66FC33781B31D5B200841940 /* walker.jpg */; };
+		66FC337B1B31D5E400841940 /* ghost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 66FC337A1B31D5E400841940 /* ghost.jpg */; };
+		66FC337D1B31D62C00841940 /* dragon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FC337C1B31D62C00841940 /* dragon1.png */; };
 		D1D764251B2C71380060D5A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D764241B2C71380060D5A6 /* main.m */; };
 		D1D764281B2C71380060D5A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D764271B2C71380060D5A6 /* AppDelegate.m */; };
 		D1D7642B1B2C71380060D5A6 /* CM_Table.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1D764291B2C71380060D5A6 /* CM_Table.xcdatamodeld */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66FC33761B31D59700841940 /* hodor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hodor.jpg; path = "../../../Tarea Efren/hodor.jpg"; sourceTree = "<group>"; };
+		66FC33781B31D5B200841940 /* walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = walker.jpg; path = "../../../Tarea Efren/walker.jpg"; sourceTree = "<group>"; };
+		66FC337A1B31D5E400841940 /* ghost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ghost.jpg; path = "../../../Tarea Efren/ghost.jpg"; sourceTree = "<group>"; };
+		66FC337C1B31D62C00841940 /* dragon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dragon1.png; path = "../../../Tarea Efren/dragon1.png"; sourceTree = "<group>"; };
 		D1D7641F1B2C71380060D5A6 /* CM-Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D764231B2C71380060D5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D764241B2C71380060D5A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -178,6 +186,10 @@
 		D1D764531B2C85D70060D5A6 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				66FC33761B31D59700841940 /* hodor.jpg */,
+				66FC337A1B31D5E400841940 /* ghost.jpg */,
+				66FC33781B31D5B200841940 /* walker.jpg */,
+				66FC337C1B31D62C00841940 /* dragon1.png */,
 				D1D7645E1B2C8A130060D5A6 /* bart.png */,
 				D1D764551B2C85D70060D5A6 /* homer.png */,
 				D1D764561B2C85D70060D5A6 /* lisa.png */,
@@ -268,14 +280,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D7645D1B2C85D70060D5A6 /* marge.png in Resources */,
+				66FC337B1B31D5E400841940 /* ghost.jpg in Resources */,
 				D1D764311B2C71380060D5A6 /* Main.storyboard in Resources */,
 				D1D7645F1B2C8A130060D5A6 /* bart.png in Resources */,
 				D1D7645B1B2C85D70060D5A6 /* lisa.png in Resources */,
 				D1D7645A1B2C85D70060D5A6 /* homer.png in Resources */,
+				66FC33791B31D5B200841940 /* walker.jpg in Resources */,
 				D1D764521B2C753A0060D5A6 /* cellSimpsons.xib in Resources */,
+				66FC33771B31D59700841940 /* hodor.jpg in Resources */,
 				D1D764361B2C71380060D5A6 /* LaunchScreen.xib in Resources */,
 				D1D764331B2C71380060D5A6 /* Images.xcassets in Resources */,
 				D1D7645C1B2C85D70060D5A6 /* maggie.png in Resources */,
+				66FC337D1B31D62C00841940 /* dragon1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

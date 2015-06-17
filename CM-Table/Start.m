@@ -31,9 +31,9 @@
 //-------------------------------------------------------------------------------
 -(void)initController {
    //Initialize arrays
-    maNames         = [[NSMutableArray alloc] initWithObjects: @"Bart Simpson", @"Lisa Simpson", @"Homer Simpson", @"Marge Simpson", @"Maggie Simpson", nil];
+    maNames         = [[NSMutableArray alloc] initWithObjects: @"Hodor", @"Walker King", @"Ghost", @"Dragon", nil];
     maAges          = [[NSMutableArray alloc] initWithObjects: @"10", @"8", @"40", @"38", @"1", nil];
-    maImgs          = [[NSMutableArray alloc] initWithObjects: @"bart.png", @"lisa.png", @"homer.png", @"marge.png", @"maggie.png", nil];
+    maImgs          = [[NSMutableArray alloc] initWithObjects: @"hodor.jpg", @"walker.jpg", @"ghost.jpg", @"dragon1.png", nil];
 }
 /**********************************************************************************************/
 #pragma mark - Table source and delegate methods
